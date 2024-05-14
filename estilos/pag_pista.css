@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Formula1-Black";
+    src: url("/fontes/Formula1-Black.ttf") format('truetype');
+}
+body{
+	font-family: 'Formula1-Black';
+}
+h2 {
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Formula1-Black';
+}
+header {
+    background-color: #FF1801;
+    color: 	#FFFFFF; 
+    padding: 20px;
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+header a {     
+    color: #FFFFFF; 
+    font-size: 20px;
+    text-decoration: none; 
+}
+header ul { 
+    list-style-type: none; 
+    padding: 0; 
+}
+header li { 
+    display: inline; 
+    margin-right: 150px; 
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+}
+
+.quadrado {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px; 
+
+.quadrado img {
+    width: 150px; 
+    height: auto; 
+}
+
+.quadrado p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%; 
+}
